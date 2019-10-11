@@ -1,0 +1,62 @@
+/* ESPECIFICIDAD */
+
+/* ETIQUETA:............... 1
+   CLASE:...................10
+   ID.......................100
+   ESTILOS EN LINEA.........1000
+  IMPORTANT...........Gana a todos 
+*/
+
+
+/* Herencia */
+
+.herencia{
+  color: green;
+  font-size: 50px;
+}
+
+a{
+  color: inherit;
+  font-size: inherit;
+}
+
+/* especificidad */
+
+.color{
+ background: red;
+}
+
+p .color{
+  background: yellow;
+}
+
+#color_id{
+  background:paleturquoise;
+}
+
+p{
+background: blue !important;
+}
+
+/* CASCADA */
+
+div .cascada{
+  background: blueviolet;
+}
+
+.cascada{
+  background: red;
+}
+
+.cascada{
+  background: yellow;
+}
+
+.cascada{
+  background: green;
+}
+
+
+
+
+  

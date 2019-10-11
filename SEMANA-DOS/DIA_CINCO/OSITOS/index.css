@@ -1,0 +1,74 @@
+*{
+ margin: 50px auto;
+}
+
+
+@media(min-width:1200px) {
+    .amanecer {
+        display: block;
+    }
+    .dia {
+        display: none;
+    }
+
+    .tarde {
+        display: none;
+    }
+
+    .noche {
+        display: none;
+    }
+}
+
+@media(max-width:1199px) and (min-width:992px){
+    .amanecer {
+        display: none;
+    }
+
+    .dia{
+        display: block;
+    }
+
+    .tarde {
+        display: none;
+    }
+
+    .noche {
+        display: none;
+    }
+}
+
+
+@media(max-width:991px) and (min-width:768px) {
+    .amanecer {
+        display: none;
+    }
+    .dia {
+        display: none;
+    }
+
+    .tarde {
+        display: block;
+    }
+
+    .noche {
+        display: none;
+    }
+}
+
+@media(max-width:767px) {
+    .amanecer {
+        display: none;
+    }
+    .dia {
+        display: none;
+    }
+
+    .tarde {
+        display: none;
+    }
+
+    .noche {
+        display: block;
+    }
+}

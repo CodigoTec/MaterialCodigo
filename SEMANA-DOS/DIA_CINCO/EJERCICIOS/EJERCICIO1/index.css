@@ -1,0 +1,29 @@
+:root{
+    --padding2:120px;
+}
+
+.container{
+    border: 2px solid black;
+    text-align: center;
+}
+
+.primero{
+    background-color: yellow;
+    padding:20px;
+    font-size: 60px;
+  
+}
+
+.segundo{
+    background-color: antiquewhite;
+    padding: var(--padding2);
+    font-size: 60px;
+
+}
+
+.tercero{
+    background-color: purple;
+    padding: var(--padding2);
+    font-size: 60px;
+
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor{
+  width: 900px;
+  height: 400px;
+  background-color: gray;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.cajita{
+    width: 100px;
+    height: 80px;
+    background-color:red;
+    margin: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+
+

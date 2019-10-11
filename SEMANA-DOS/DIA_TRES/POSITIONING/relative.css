@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    margin: 60px;
+}
+
+h1{
+  background-color: aqua;
+  /* margin-top: 100px; */
+}
+
+.box {
+    color: black;
+}
+
+.box1 {
+    color: blue;
+}
+
+.box2 {
+    color: red;
+}

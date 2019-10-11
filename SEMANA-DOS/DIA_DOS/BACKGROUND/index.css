@@ -1,0 +1,17 @@
+body{
+    background-color: red;
+    
+    /* background-repeat: no-repeat; */
+}
+
+
+.box{
+    width: 700px;
+    height: 400px;
+    background-color: brown;
+    margin:100px auto;
+    background-image: url(./perro.jpg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: bottom 20px right 10px;
+}

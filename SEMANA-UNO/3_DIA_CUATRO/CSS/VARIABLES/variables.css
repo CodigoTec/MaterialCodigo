@@ -1,0 +1,18 @@
+
+:root{
+    --color:black;
+}
+
+body {
+    background: var(--color);
+}
+
+h1 {
+    background: white;
+    color: var(--color);
+}
+
+p {
+    background: white;
+    color: var(--color);
+}

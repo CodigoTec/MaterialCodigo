@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    margin: 60px;
+    position: relative;
+    background-color: yellow;
+}
+
+h1 {
+    background-color: aqua;
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
+.box {
+    color: black;
+}
+
+.box1 {
+    color: blue;
+}
+
+.box2 {
+    color: red;
+}

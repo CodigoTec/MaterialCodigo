@@ -1,0 +1,23 @@
+#noticias{
+    background-color: aqua;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#noticiaslocales{
+    background-color: royalblue;
+    font-size: 60px;
+    text-align: left;
+    margin-top: 40px;
+
+}
+
+.libros{
+    background-color: palevioletred;
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: justify;
+    margin: 30px;
+}

@@ -1,0 +1,20 @@
+#article-uno {
+    background-color: aquamarine;
+}
+
+#article-dos {
+    background-color: palevioletred
+}
+
+#article-tres {
+    background-color: gainsboro;
+}
+
+.navegation{
+    background-color:rosybrown;
+    padding: 20px;
+}
+
+aside{
+ background-color: brown;
+}

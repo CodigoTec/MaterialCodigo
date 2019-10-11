@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.box {
+    width: 400px;
+    height: 300px;
+    background: transparent;
+    margin: 100px auto;
+    border: 80px dotted black;
+    border-width: 200px;
+    /* border-top-width: 50px;
+    border-right-width: 30px;
+    border-left-width: 50px;
+    border-bottom-width: 20px; */
+    /* border-top-style: double;
+    border-right-style: solid;
+    border-bottom-style: dashed;
+    border-left-style: dotted; */
+
+    border-style: solid ;
+
+    border-color: blue;
+
+    border-top-color: aqua;
+    border-right-color: brown;
+    border-bottom-color: black;
+    border-left-color: blueviolet;
+}

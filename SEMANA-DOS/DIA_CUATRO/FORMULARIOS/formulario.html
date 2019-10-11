@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario en HTML5</title>
+</head>
+
+<body>
+    <h1>FORMULARIOS</h1>
+    <p>Los elementos del formulario son controles que nos
+        permiten manejar la informacion del usuario</p>
+    <hr>
+    <section>
+        <h2>Form</h2>
+        <p>Podremos enviar los valores del formulario</p>
+        <form method="get" action="destino.html">
+            <div>
+                <input type="text">
+            </div>
+
+            <div>
+                <input type="text">
+            </div>
+            <div>
+
+                <button>enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <h2>Input</h2>
+        <P>Esta etiqueta nos permite ingresar la informacion del usuario, 
+            se define por su tipo</P>
+        <p>Entre los tipos de input mas utilizados tenemos:</p>
+        <pre>
+            <code>  
+                    input type="text"
+                    input type="button"
+                    input type="checkbox"
+                    input type="date"
+                    input type="email"
+                    input type="password"
+                    input type="file"
+                    input type="hidden"
+                    input type="month"
+                    input type="number"
+                    input type="radio"
+                    input type="range"
+                    input type="reset"
+                    input type="search"
+                    input type="submit"
+                    input type="tel"
+                    input type="time"
+                    input type="url"
+                    input type="week"
+            </code>
+        </pre>
+        <div>
+            <h3>input type="text"</h3>
+            <input type="text">
+        </div>
+        <div>
+            <h3>input type="button" value="el valor del boton"</h3>
+            <input type="button" onclick="alert('Hello World!')" value="enviar datos">
+        </div>
+        <div>
+            <h3>input type="checkbox"</h3>
+            <input type="checkbox">
+            <input type="checkbox">
+            <input type="checkbox">
+        </div>
+        <div>
+            <h3>input type="date"</h3>
+            <input type="date">
+        </div>
+        <div>
+            <h3>input type="email"</h3>
+            <input type="email">
+        </div>
+        <div>
+            <h3>input type="password"</h3>
+            <input type="password">
+        </div>
+        <div>
+            <h3>input type="file"</h3>
+            <input type="file">
+        </div>
+        <div>
+            <h3>input type="hidden"</h3>
+            <input type="hidden">
+        </div>
+        <div>
+            <h3>input type="month"</h3>
+            <input type="month">
+        </div>
+        <div>
+            <h3>input type="number"</h3>
+            <input type="number">
+        </div>
+        <div>
+            <h3>input type="radio"</h3>
+            <input type="radio">
+            <input type="radio">
+            <input type="radio">
+        </div>
+        <div style="background-color:gray">
+            <h3>input type="range"</h3>
+            <input type="range">
+        </div>
+        <div>
+            <h3>input type="reset"</h3>
+            <input type="reset" value="limpiar">
+        </div>
+        <div>
+            <h3>input type="search"</h3>
+            <input type="search">
+        </div>
+        <div>
+            <h3>input type="submit"</h3>
+            <input type="submit" value="enviar">
+        </div>
+        <div>
+            <h3>input type="tel"</h3>
+            <input type="tel">
+        </div>
+        <div>
+            <h3>input text="time"</h3>
+            <input type="time">
+        </div>
+        <div>
+            <h3>input text="url"</h3>
+            <input type="url">
+        </div>
+        <div>
+            <h3>input text="week"</h3>
+            <input type="week">
+        </div>
+    </section>
+
+    <section>
+        <h2>Select</h2>
+        <p>Nos ayuda elegir entre multiples opciones desde un solo control</p>
+        <select>
+            <option value="1">uno</option>
+            <option value="2">dos</option>
+            <option value="3">tres</option>
+        </select>
+    </section>
+
+    <section>
+        <h3>Textarea</h3>
+        <p>Similar al input pero es mas grande y se puede 
+            configurar el numero de filas y columnas</p>
+        <textarea cols="30" rows="10"></textarea>
+    </section>
+
+    <section>
+        <h3>Button</h3>
+        <p>son botones con estilos y tienen diferentes tipos</p>
+
+        <form>
+            <input name="nombre" type="text" placeholder="nombre">
+            <button type="submit"> enviar datos</button>
+            <button type="reset"> limpiar </button>
+        </form>
+    </section>
+
+</body>
+
+</html>

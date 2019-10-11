@@ -1,0 +1,21 @@
+*{
+    margin: 5px;
+    font-family: sans-serif;
+  }
+  body {
+    border: 2px dashed blueviolet;
+  }
+  div {
+    border: 2px solid #7F557D;
+  }
+  h1 {
+    border: 2px solid #726E97;
+  }
+  p{
+    border: 2px solid lightgreen;
+    background: #7F557D;
+    padding: 50px;
+  }
+
+
+ 

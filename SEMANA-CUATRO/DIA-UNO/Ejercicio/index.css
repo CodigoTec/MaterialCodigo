@@ -1,0 +1,121 @@
+*{
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.padre{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.header{
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.menu{
+   background-color: gray;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   height: 80px; 
+   justify-content: center; 
+   align-items: center;
+}
+ 
+.logo{
+    background-color: aqua;
+    flex:1 1 auto;
+    height: 20px;
+}
+.nav{
+    background-color: aqua;
+    flex:5 1 auto;
+    height: 20px;
+}
+.social{
+    background-color: aqua;
+    flex:1 1 auto;
+    height: 20px;
+}
+
+.texto-principal{
+    background-color: blueviolet;
+}
+
+h1{
+    background-color: palevioletred;
+}
+
+.section{
+    background-color: #000;
+    display:flex;
+
+}
+
+.articles{
+   background-color: aquamarine;
+   flex: 2 1 auto;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.article{
+   background-color: beige;
+   flex: 1 1 40%;
+}
+
+.navigation{
+ background-color: brown;
+ flex: 1 1 100%;
+}
+
+.aside{
+  background-color: green;
+  flex: 1 1 auto;
+}
+
+.publicidad{
+    background-color: greenyellow;
+}
+
+.footer{
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie{
+    background-color: blue;
+    width: 300px;
+}
+
+@media all and (max-width:800px){
+    .section{
+        display: flex;
+        flex-direction: column;
+      }
+
+    .menu{
+        flex-direction: column;
+        height: auto;  
+     }
+}
+
+@media all and (max-width:600px){
+    .articles{
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:400px){
+   .aside{
+       flex-direction: column;
+   }
+}
+

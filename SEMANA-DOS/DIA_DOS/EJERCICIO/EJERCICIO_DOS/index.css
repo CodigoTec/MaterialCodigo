@@ -1,0 +1,76 @@
+body {
+    margin: 30px;
+    padding: 0px;
+}
+
+header {
+    background: red;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+li {
+    margin: 50px;
+    display: inline;
+}
+
+.inicio {
+    font-size: 20px;
+    text-align: justify;
+}
+
+article {
+    background: white;
+    margin: 30px 80px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.article1{
+    background: rosybrown;
+}
+
+.article2{
+    background: rgb(209, 149, 71);
+}
+
+.article3{
+    background: rgb(226, 105, 200);
+}
+
+article h2 {
+ text-align: center;
+}
+
+article p {
+   padding: 50px; 
+}
+
+figure {
+    text-align: center;
+    padding: 40px;
+}
+
+#productos{
+    text-align: center;
+    background-color: aqua
+}
+
+#productos img{
+    width: 250px;
+    height: 180px;
+    border: 2px solid black;
+}
+
+#productos div{
+    display: inline;
+    padding: 50px;
+}
